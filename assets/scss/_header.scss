@@ -1,0 +1,48 @@
+@import '_mixins';
+.header{
+    width: 100%;
+    background-color: white; //$ppal;
+    &__wrapper{
+        width: 95%;
+        margin: auto;
+        padding: 1rem 0 1.5rem;
+        @include flexible (row, nowrap, space-between, center);
+    }
+    &__h1{
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+        // text-transform: uppercase;
+        font-weight: 800;
+        @include flexible (row, nowrap, flex-start, center);
+        gap: 1rem;
+        & img{
+            width: 30px;
+            height: 30px;
+        }
+        & p{
+            color: $ppal;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        & strong{
+            font-weight: 600;      
+        }
+    }
+    &__menu{
+        @include flexible (row, nowrap, space-between, center);
+        gap: 1rem;
+    }
+    &__item{
+        cursor: pointer;
+        padding: .5rem 1rem;
+        border-radius: 6px;
+    }
+    &__item.signin{
+        color: white;
+        background-color: $primary;
+        &:hover{
+            background-color: $primary-color-dark;
+        }
+    }
+}

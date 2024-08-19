@@ -1,0 +1,87 @@
+.footer{
+    padding: 2rem 0;
+    &__wrapper{
+        @include flexible (column, nowrap, center, center);
+        flex-direction: column-reverse;
+        @include respond-above(md) {
+            @include flexible (row, nowrap, space-between, center);
+        }
+    }
+    &__hr{
+        color: $lightgray;
+    }
+    &__title{
+        display: flex;
+        flex-flow: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+        color: $ppal;
+        font-size: 20px;
+    }
+    &__name{
+        display: inline; /* Para hacer que el párrafo esté en línea */
+        margin-bottom: 0;
+        color: $lightgray;
+        font-size: 20px;
+    }
+    &__contact{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        @include respond-above(md) {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+        } 
+    }
+    &__phone{
+        font-weight: 300;
+        font-size: 16px;
+    }
+    &__email{
+        font-weight: 300;
+        font-size: 16px;
+    }
+    &__social-media{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 1.5rem;
+        @include respond-above(md) {
+            margin-bottom: 0;
+        }
+    }
+    &__social-item{
+        width: 22px;
+        height: 22px;
+        background-color: $lightgray;
+        border-radius: 11px;
+        &:hover{
+            background-color: $ppal;
+            .footer__social-icon:before{
+                color: $white;
+            }
+        }
+    }
+    &__link{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: row;
+    }
+    &__social-icon:before{
+        color: $blacky;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+
+}
