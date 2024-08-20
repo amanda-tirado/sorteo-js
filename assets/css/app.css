@@ -497,11 +497,11 @@ body {
 .footer__social-item {
   width: 22px;
   height: 22px;
-  background-color: #d31c92;
+  background-color: #d4d4d4;
   border-radius: 11px;
 }
 .footer__social-item:hover {
-  background-color: #d31c92;
+  background-color: #212121;
 }
 .footer__social-item:hover .footer__social-icon:before {
   color: #fafafa;
@@ -526,7 +526,7 @@ body {
           flex-direction: row;
 }
 .footer__social-icon:before {
-  color: #272727;
+  color: #d31c92;
   font-size: 16px;
   vertical-align: middle;
 }

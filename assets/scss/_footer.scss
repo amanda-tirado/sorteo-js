@@ -60,10 +60,10 @@
     &__social-item{
         width: 22px;
         height: 22px;
-        background-color: $primary; //$lightgray;
+        background-color: $lightgray;
         border-radius: 11px;
         &:hover{
-            background-color: $primary; //$ppal;
+            background-color: $ppal;
             .footer__social-icon:before{
                 color: $white;
             }
@@ -79,9 +79,9 @@
         flex-direction: row;
     }
     &__social-icon:before{
-        color: $blacky;
+        color: $primary; //$blacky;
         font-size: 16px;
-        vertical-align: middle;
+        vertical-align: middle;  
     }
 
 }
