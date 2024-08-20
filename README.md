@@ -20,7 +20,7 @@ Para crear este proyecto he usado:
 * [Porfolio web](http://www.amandatirado.com)
 
 ## Ver ejemplo en vivo 
-- [Ver Demo](https://amanda-tirado.github.io/sorteo-js/)
+- [Ver Demo](https://amanda-tirado.github.io/sorteo-js/){:target="_blank"}
 
 ## Contratación
 Si quieres contratarme puedes escribirme a amandatiradoanula@gmail.com para consultas.
