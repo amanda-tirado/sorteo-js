@@ -8,8 +8,7 @@ Para crear este proyecto he usado:
 * CSS
 * SASS
 * Javascript
-* Typescript
-* jQuery
+* Bootstrap
 * Metodología BEM
 
 ## Autor ✒️
