@@ -69,6 +69,7 @@
         background-color: $lightgray;
         border-radius: 11px;
         &:hover{
+            transform: scale(1.2);
             //background-color: $ppal;
             .footer__link i::before{
                 //color: $white;
