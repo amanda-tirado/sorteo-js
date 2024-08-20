@@ -6,7 +6,7 @@ Pequeño proyecto para el módulo de Desarrollo Web en Trazos. He realizado un s
 Para crear este proyecto he usado:
 * HTML
 * CSS
-* SASS
+* SCSS
 * Javascript
 * Bootstrap
 * Metodología BEM
