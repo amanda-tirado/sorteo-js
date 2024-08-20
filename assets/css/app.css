@@ -427,7 +427,7 @@ body {
 .footer__name {
   display: inline; /* Para hacer que el párrafo esté en línea */
   margin-bottom: 0;
-  color: #d4d4d4;
+  color: #d31c92;
   font-size: 20px;
 }
 .footer__contact {
@@ -497,11 +497,11 @@ body {
 .footer__social-item {
   width: 22px;
   height: 22px;
-  background-color: #d4d4d4;
+  background-color: #d31c92;
   border-radius: 11px;
 }
 .footer__social-item:hover {
-  background-color: #212121;
+  background-color: #d31c92;
 }
 .footer__social-item:hover .footer__social-icon:before {
   color: #fafafa;
