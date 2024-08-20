@@ -21,7 +21,7 @@
     &__name{
         display: inline; /* Para hacer que el párrafo esté en línea */
         margin-bottom: 0;
-        color: $lightgray;
+        color: $primary; //$lightgray;
         font-size: 20px;
     }
     &__contact{
@@ -60,10 +60,10 @@
     &__social-item{
         width: 22px;
         height: 22px;
-        background-color: $lightgray;
+        background-color: $primary; //$lightgray;
         border-radius: 11px;
         &:hover{
-            background-color: $ppal;
+            background-color: $primary; //$ppal;
             .footer__social-icon:before{
                 color: $white;
             }
