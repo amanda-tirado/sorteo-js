@@ -64,7 +64,7 @@
         border-radius: 11px;
         &:hover{
             //background-color: $ppal;
-            .footer__link i:before{
+            .footer__link i::before{
                 //color: $white;
                 color: $primary; //$blacky;
             }

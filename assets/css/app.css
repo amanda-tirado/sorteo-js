@@ -500,7 +500,7 @@ body {
   background-color: #d4d4d4;
   border-radius: 11px;
 }
-.footer__social-item:hover .footer__link i:before {
+.footer__social-item:hover .footer__link i::before {
   color: #d31c92;
 }
 .footer__link {
