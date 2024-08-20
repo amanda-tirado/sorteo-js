@@ -15,9 +15,9 @@ Para crear este proyecto he usado:
 ## Autor ✒️
 **Amanda Tirado Anula**
 
-* [LinkedIn](www.linkedin.com/in/amandatiradoanula)
+* [LinkedIn](https://www.linkedin.com/in/amandatiradoanula)
 * [Behance](https://www.behance.net/amandatiradoanula)
-* [Porfolio web](http://www.amandatirado.com)
+* [Porfolio web](https://www.amandatirado.es/)
 
 ## Ver ejemplo en vivo 
 - [Ver Demo](https://amanda-tirado.github.io/sorteo-js/){:target="_blank"}
